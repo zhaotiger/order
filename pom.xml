@@ -108,17 +108,18 @@
 					<encoding>utf8</encoding>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<path>/</path>
-					<port>8071</port>
-					<uriEncoding>UTF-8</uriEncoding>
-					<contextReloadable>true</contextReloadable>
-				</configuration>
-			</plugin>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <path>/</path>
+                    <port>8071</port>
+                    <uriEncoding>UTF-8</uriEncoding>
+                    <contextReloadable>true</contextReloadable>
+                </configuration>
+            </plugin>
+
 		</plugins>
 	</build>
 </project>
